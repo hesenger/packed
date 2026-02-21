@@ -4,7 +4,7 @@ TINYGO := $(CURDIR)/bin/tinygo
 OUTPUT_DIR := bin
 ARCH := $(shell uname -m | sed 's/x86_64/amd64/' | sed 's/aarch64/arm64/')
 PLATFORM := $(shell uname -s | tr '[:upper:]' '[:lower:]')
-OUTPUT := $(OUTPUT_DIR)/packed
+OUTPUT := $(OUTPUT_DIR)/packed-$(PLATFORM)-$(ARCH)
 
 setup:
 	@chmod +x scripts/setup-tinygo.sh
