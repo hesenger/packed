@@ -1,0 +1,39 @@
+# TinyGo build artifacts
+*.wasm
+*.hex
+*.uf2
+*.bin
+*.elf
+
+# Build directories
+build/
+dist/
+out/
+bin/
+
+# Go build cache
+*.o
+*.a
+
+# Vendor directory (if using vendoring)
+vendor/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage.txt
+coverage.out
+*.cover
+
+# Temporary files
+*.tmp
+*.temp
