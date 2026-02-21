@@ -1,5 +1,4 @@
 # Packed
 
-This is a toy project that aims to build a pretty simple tinygo game in the
+This is a toy project that aims to build a pretty simple go game in the
 terminal.
-

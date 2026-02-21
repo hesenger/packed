@@ -1,3 +1,2 @@
-- This is a tinygo project, keep it simple with no dependencies aiming 128kb binary size;
+- Keep it simple with no dependencies aiming 3mb binary size;
 - Do not add comments, use descriptive function and var names being go idiomatic;
-
