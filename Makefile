@@ -13,7 +13,7 @@ setup:
 build: $(TINYGO)
 	@if [ ! -d "src" ]; then echo "Error: src/ directory not found"; exit 1; fi
 	@mkdir -p $(OUTPUT_DIR)
-	cd src && $(TINYGO) build -o ../$(OUTPUT) .
+	cd src && $(TINYGO) build -no-debug -panic=trap -opt=z -o ../$(OUTPUT) .
 	@echo "Built: $(OUTPUT)"
 
 $(TINYGO):
